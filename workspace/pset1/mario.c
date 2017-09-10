@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cs50.h>
+
  
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
     //error handling
     do{
         printf("(min 0, max 23)Height: ");
-        h = get_int();
+        h = 23;//23
     }
     while( h < 0 || h > 23);
     printf("\"Mario's Pyramid\"\n");

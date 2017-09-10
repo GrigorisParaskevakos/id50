@@ -1,10 +1,10 @@
-#include <cs50.h> 
-#include <stdio.h> 
 
-int main (void)
+#include <stdio.h>
+
+int main(void)
 {
     long long n = 1;
-    for (int i = 0; i<64; i++)
+    for (int i = 0; i < 64; i++)
     {
         printf("n is %lld\n", n); //lld is long long decimal
         n = n * 2;
